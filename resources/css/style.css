@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Rufina');
 
-/*
-#003249
-#007EA7
-#80CED7
-#9AD1D4
-#CCDBDC
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +8,12 @@
 
 html {
   font-size: 18px;
+  color: #363738;
 }
 
 body {
   font-family: "Oxygen", sans-serif;
-  background-color: #CCDBDC;
+  background-color: white;
 }
 
 .rufina {
@@ -77,7 +70,7 @@ header {
 }
 
 #learn {
-  background-color: #007EA7;
+  background-color: rgb(218, 218, 218);
   padding: 32px 24px;
   display: flex;
 }
@@ -94,7 +87,7 @@ header {
 }
 
 button {
-  background-color: #003249;
+  background-color: #484b4b;
   color: #CCDBDC;
   border: 0;
   font-family: "Oxygen", sans-serif;
@@ -157,7 +150,7 @@ button:hover {
 
 .holder-practice-main {
   padding: 32px 24px;
-  border-right: 1px solid #007EA7;
+  border-right: 1px solid rgb(218, 218, 218);
 }
 
 .holder-img-practice {
@@ -182,7 +175,7 @@ button:hover {
 .campus-info-single {
   display: flex;
   min-height: 168px;
-  border-bottom: 1px solid #007EA7;
+  border-bottom: 1px solid rgb(218, 218, 218);
 }
 
 .holder-img-campus-info {
@@ -208,11 +201,11 @@ button:hover {
 }
 
 .blue {
-  background-color: #007EA7;
+  background-color: rgb(218, 218, 218);
 }
 
 #learning {
-  background-color: #007EA7;
+  background-color: rgb(238, 235, 235);
   padding-bottom: 16px;
 }
 
@@ -243,7 +236,7 @@ button:hover {
 }
 
 .holder-course {
-  background-color: #CCDBDC;
+  background-color: white;
   width: 30%;
   margin: 16px;
   padding-bottom: 24px;
@@ -335,10 +328,10 @@ video {
 }
 
 footer {
-  background-color: #007EA7;
-  color: #003249;
+  background-color: white;
+  color: #363738;
   padding: 0 24px;
-  border-top: 2px solid #003249;
+  border-top: 1px solid rgb(218, 218, 218);
   display: flex;
   justify-content: space-between;
 }
@@ -347,7 +340,6 @@ footer {
   display: block;
   padding: 16px 0;
 }
-
 
 footer a {
   display: inline-block;
@@ -358,11 +350,3 @@ footer a {
 footer a:hover {
   text-decoration: none;
 }
-
-/*
-#003249
-#007EA7
-#80CED7
-#9AD1D4
-#CCDBDC
-*/   
